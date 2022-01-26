@@ -7,15 +7,53 @@
     z-index: 2;
     top: 0;
     left: 0;
-    overflow-x: hidden;
-
-
-        .side-nav li {
-            display: none;
-        }
-
-
-
-
+    overflow-x: hidden
 
 }
+    
+.side-nav-menu-button {
+        position: relative;
+        width: 24px;
+        height: 24px;
+        background: none;
+        border: none;
+        justify-content: center;
+        display: inline-block;
+
+}
+      
+    .hamburger-top
+    .hamburger-middle,
+    .hamburger-bottom {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        background-color: white;
+
+    }
+
+    .hamburger-middle {
+        transform: translateY(7px);
+    }
+
+    .hamburger-bottom {
+        transform: translateY(14px);
+    }
+
+    .hamburger p {
+        position: absolute;
+        transform-origin: 0 0;
+        transform: rotate(-90deg);
+        color: white;
+        font-size: 14px;
+
+    }
+
+
+    .side-nav li {
+        display: none;
+    }
+
+    
+
