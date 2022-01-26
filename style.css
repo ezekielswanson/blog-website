@@ -9,7 +9,45 @@
   overflow-x: hidden;
 }
 
-.side-nav-display .side-nav li {
-  display: none;
+.side-nav-menu-button {
+  position: relative;
+  height: 20%;
+  background: none;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hamburger {
+  margin-top: 15em;
+}
+
+.hamburger-middle {
+  -webkit-transform: translateY(7px);
+          transform: translateY(7px);
+}
+
+.hamburger-bottom {
+  -webkit-transform: translateY(14px);
+          transform: translateY(14px);
+}
+
+.hamburger p {
+  position: absolute;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  color: white;
+  font-size: 14px;
+  display: inline-block;
 }
 /*# sourceMappingURL=style.css.map */
