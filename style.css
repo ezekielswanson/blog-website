@@ -33,20 +33,6 @@
   background-color: none;
 }
 
-/*
-.side-nav-display p {
-    position: absolute;
-    top: 4em;
-    transform-origin: 0 0;
-    transform: rotate(90deg);
-    color: white;
-    font-size: 18px;
-    display: block;
-    margin-left: 4em;
-
-
-}
-*/
 .inactive,
 .active {
   position: absolute;
@@ -59,5 +45,18 @@
   font-size: 18px;
   display: block;
   margin-left: 4em;
+}
+
+/* Inner Side Navigation */
+.inner-side-nav-container {
+  width: 25%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 4;
+  background-color: black;
+  z-index: 2;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 /*# sourceMappingURL=style.css.map */
