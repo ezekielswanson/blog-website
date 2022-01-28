@@ -13,46 +13,51 @@
     
 .side-nav-menu-button {
         position: relative;
-        height: 20%;
         background: none;
         border: none;
         display: flex;
         align-items: center;
         flex-direction: column;
+        justify-content: center;
+        height: 50%;
 
 }
 
-.hamburger {
-    margin-top: 15em;
-}
 
-      
-.hamburger-top
-.hamburger-middle,
-.hamburger-bottom {
-
-   
+.menu-btn {
+    background-color: none;
 
 }
 
-.hamburger-middle {
-    transform: translateY(7px);
-}
 
-.hamburger-bottom {
-    transform: translateY(14px);
-}
 
-.hamburger p {
+/*
+.side-nav-display p {
     position: absolute;
+    top: 4em;
     transform-origin: 0 0;
-    transform: rotate(-90deg);
+    transform: rotate(90deg);
     color: white;
-    font-size: 14px;
-    display: inline-block;
+    font-size: 18px;
+    display: block;
+    margin-left: 4em;
+
 
 }
+*/
 
+
+.inactive,
+.active {
+    position: absolute;
+    top: 4em;
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+    color: white;
+    font-size: 18px;
+    display: block;
+    margin-left: 4em;
+}
 
 
     
